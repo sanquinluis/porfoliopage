@@ -1,6 +1,70 @@
+body {
+	/*Top tranparent gray*/
+	background: 
+	linear-gradient(  
+	 	rgba(27, 27, 27, 0.55), 
+		rgba(27, 27, 27, 0.55)
+	 ), url('../images/desk.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
 
+}
+/*header using bootstrap*/
 .theBar {
 	margin-top: 50px !important;
+	background: transparent !important;
+	border-color: transparent;
+}
+.brandN {
+	color: rgb(255, 255, 255) !important;
+	font-family: 'Supermercado One', cursive;
+	font-size: 2.875em;
+	font-weight: bold;
+	text-shadow: 10px 10px 5px black;
+	margin-left: 40px !important;
+
+}
+
+
+/*Jumbotron/body/info*/
+.jumbi {
+	text-align: center !important;
+	background: transparent;
+	font-style: italic bold;
+	font-family: 'Supermercado One', cursive;	
+	color: rgb(255, 255, 255) !important;
+	font-size: 15px !important;
+	border-left-color: solid;
+}
+.h4C {
+	font-family: 'Supermercado One', cursive;
+}
+.footer {
+	text-align: center;
+	font-family: 'Supermercado One', cursive;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.foto {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	padding: 5px;
+}
+.topic {
+	float: right;
+	border-left: solid;
+	border-color: white;
+}
+.topic2 {
+	float: left;
+	height: 45px;
+	width: 45px;
 }
 
 
