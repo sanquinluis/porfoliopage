@@ -25,10 +25,7 @@ body {
 	font-weight: bold;
 	text-shadow: 10px 10px 5px black;
 	margin-left: 40px !important;
-
 }
-
-
 /*Jumbotron/body/info*/
 .jumbi {
 	text-align: center !important;
@@ -37,10 +34,12 @@ body {
 	font-family: 'Supermercado One', cursive;	
 	color: rgb(255, 255, 255) !important;
 	font-size: 15px !important;
-	border-left-color: solid;
+	margin-top: 60px;
 }
-.h4C {
-	font-family: 'Supermercado One', cursive;
+.hello {
+	color: rgb(255, 255, 179);
+	font-size: 30px;
+	font-family: cursive;
 }
 .footer {
 	text-align: center;
@@ -50,6 +49,7 @@ body {
 	margin-bottom: 20px;
 	width: 100%;
 }
+/*icons logos*/
 .foto {
 	height: 45px;
 	width: 45px;
@@ -61,10 +61,19 @@ body {
 	border-left: solid;
 	border-color: white;
 }
-.topic2 {
+/*home page image*/
+div div div img  {
 	float: left;
-	height: 45px;
-	width: 45px;
+	height: 45%;
+	width: 45%;
+	border-radius: 50%;
+	padding:1px;
+   	border:1px solid #021a40;
+   	background-color: gray;
+   	margin-left: 40px;
+}
+p div {
+	font-size: 20px;
 }
 
 
