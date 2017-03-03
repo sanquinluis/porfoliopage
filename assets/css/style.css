@@ -26,6 +26,22 @@ body {
 	text-shadow: 10px 10px 5px black;
 	margin-left: 40px !important;
 }
+.liTextCh {
+	text-align: center;
+
+}
+div div ul li {
+	text-align: center;
+	color: red !important;
+	font-family:'Indie Flower', cursive;
+	background-color: rgb(225, 238, 255);
+}
+.fontCh {
+	font-family: 'Anton', sans-serif;
+}
+.projCh {
+	font-family: 'Amatic SC', cursive;
+}
 /*Jumbotron/body/info*/
 .jumbi {
 	text-align: center !important;
@@ -71,6 +87,7 @@ div div div img  {
    	border:1px solid #021a40;
    	background-color: gray;
    	margin-left: 40px;
+   	
 }
 p div {
 	font-size: 20px;
