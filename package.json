@@ -1,0 +1,19 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "first porfolio of my works",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanquinluis/porfoliopage.git"
+  },
+  "author": "Hector Santana Quintana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanquinluis/porfoliopage/issues"
+  },
+  "homepage": "https://github.com/sanquinluis/porfoliopage#readme"
+}
