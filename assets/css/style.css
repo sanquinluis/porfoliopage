@@ -105,7 +105,8 @@ p div {
     color: #36A0FF;
 }
 .formCo {
-	background-color: rgb(111, 240, 97);
+	width: auto;
+	height: auto; 
 
 }
 .header {
@@ -116,5 +117,13 @@ p div {
     }
 .margS{
 	margin-bottom: 5px;
+}
+.well {
+	background-color: rgb(247, 229, 197) !important;
+	border-radius: 20px;
+	
+}
+legend {
+border-color: black;
 }
 
