@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sanquinluis/porfoliopage/issues"
   },
-  "homepage": "https://github.com/sanquinluis/porfoliopage#readme"
+  "homepage": "https://github.com/sanquinluis/porfoliopage#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemailer": "^3.1.5"
+  }
 }
