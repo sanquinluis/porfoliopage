@@ -64,6 +64,8 @@ div div ul li {
 	color: white;
 	margin-bottom: 20px;
 	width: 100%;
+	position: relative;
+
 }
 /*icons logos*/
 .foto {
@@ -79,14 +81,13 @@ div div ul li {
 }
 /*home page image*/
 div div div img  {
-	float: left;
 	height: 45%;
 	width: 45%;
 	border-radius: 50%;
 	padding:1px;
    	border:1px solid #021a40;
    	background-color: gray;
-   	margin-left: 40px;
+   	
 
 }
 p div {
@@ -126,4 +127,56 @@ p div {
 legend {
 border-color: black;
 }
+
+/*about************/
+.abt {
+	color: white;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+}
+.mess {
+	color: white;
+	text-align: center;
+	font-family: 'Supermercado One', cursive;
+	font-size: 20px;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: #FF1493;
+}
+a:hover {
+    color: #C71585;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+}
+.barhtml {
+	width:90%;
+}
+.c_ss {
+	width: 88%;
+} 
+.javS {
+	width: 65%;
+}
+.jQu {
+	width: 50%;
+}
+.boTs {
+	width: 70%;
+}
+.nod {
+	width: 55%;
+}
+.mysq {
+	width: 35%;
+}
+.secCon { 
+	position: absolute;
+ }
 
