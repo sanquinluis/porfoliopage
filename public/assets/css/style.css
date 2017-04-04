@@ -12,7 +12,7 @@ body {
     position: absolute;
 
 }
-/*header using bootstrap*/
+/*header using bootstrap */
 .theBar {
 	margin-top: 50px !important;
 	background: transparent !important;
@@ -43,15 +43,6 @@ div div ul li {
 	font-family: 'Amatic SC', cursive;
 }
 /*Jumbotron/body/info*/
-.jumbi {
-	text-align: center !important;
-	background: transparent;
-	font-style: italic bold;
-	font-family: 'Supermercado One', cursive;	
-	color: rgb(255, 255, 255) !important;
-	font-size: 15px !important;
-	margin-top: 60px;
-}
 .hello {
 	color: rgb(255, 255, 179);
 	font-size: 30px;
@@ -67,7 +58,7 @@ div div ul li {
 	position: relative;
 
 }
-/*icons logos*/
+/* index.html ---icons logos*/
 .foto {
 	height: 45px;
 	width: 45px;
@@ -80,21 +71,29 @@ div div ul li {
 	border-color: white;
 }
 /*home page image*/
-div div div img  {
-	height: 45%;
-	width: 45%;
-	border-radius: 50%;
+.myimg{
+	display: block;
+	height: 315px;
+	width: 315px;
 	padding:1px;
    	border:1px solid #021a40;
    	background-color: gray;
-   	
-
+  	justify-content: center
+  	margin: 0 auto;
+  	content: url('/assets/images/me.jpg');
 }
 p div {
 	font-size: 20px;
 }
+.myimg:hover {
+	content: url('/assets/images/sideme.jpg');
+	display: block;
+	border:1px solid #021a40;
+	height: 315px;
+	width: 315px;
+}
 
-/*contact****************/
+/*contact.htm****************/
 .header {
     color: #36A0FF;
     font-size: 27px;
@@ -120,15 +119,18 @@ p div {
 	margin-bottom: 5px;
 }
 .well {
-	background-color: rgb(247, 229, 197) !important;
+	background-color: #2F4F4F !important;
 	border-radius: 20px;
 	
 }
 legend {
 border-color: black;
 }
+.bkco {
+	background-color: rgb(106, 32, 50);
+}
 
-/*about************/
+/*about.html************/
 .abt {
 	color: white;
 	text-align: center;
@@ -139,7 +141,7 @@ border-color: black;
 	color: white;
 	text-align: center;
 	font-family: 'Supermercado One', cursive;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 a:link {

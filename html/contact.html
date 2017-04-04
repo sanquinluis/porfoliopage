@@ -13,11 +13,11 @@
 	<!--circletype-->
 	<!--<script src="circletype.min.js"></script> -->
 	<!--CSS link-->
-	<link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid rgb(106, 32, 50)">
 	<nav class="navbar navbar-default theBar">
     <div class="container">
       <div class="navbar-header">
@@ -33,7 +33,7 @@
       <div id="navbar6" class="navbar-collapse collapse liTextCh">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/aboutme">About</a></li>
           <li><a href="/contact">Contact</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
@@ -62,12 +62,12 @@
   		 <div class=" col-lg-10 col-lg-offset-1 formCo" >
   		  <div class="well well-md">
   		  <legend class="text-center header">Contact Me</legend>
-  		  <form id="contact-form" class="form-horizontal" method="post" action="contact.php" role="form">
+  		  <form id="contact-form" class="form-horizontal" method="post" action="mailto:sanquinluis@gmail.com" enctype="text/plain" role="form">
   			<div class="input-group input-group-lg col-lg-4 col-lg-offset-4 margS">
   				<span class="input-group-addon " for="form_name">
   					<span class="glyphicon glyphicon-user"></span>
   				</span>
-  					<input class="form-control" type="text" name="Fname" placeholder="First Name" required="required" data-error="Firstname is required.">
+  					<input class="form-control" type="text" name="First_Name" placeholder="First Name" required="required" data-error="Firstname is required.">
   					<div class="help-block with-errors"></div>
   			</div>
 
@@ -75,7 +75,7 @@
   				<span class="input-group-addon" for="form_lastname">
   					<span class="glyphicon glyphicon-user"></span>
   				</span>
-  					<input class="form-control" type="text" name="Lname" placeholder="Last Name" required="required" data-error="Lastname is required.">
+  					<input class="form-control" type="text" name="Last_Name" placeholder="Last Name" required="required" data-error="Lastname is required.">
   					<div class="help-block with-errors"></div>
   			</div>
 
@@ -83,7 +83,7 @@
   				<span class="input-group-addon" for="form_phone">
   					<span class="glyphicon glyphicon-phone-alt"></span>
   				</span>
-  					<input class="form-control" type="tel" name="Phone" placeholder="Phone" required="required" data-error="Valid email is required.">
+  					<input class="form-control" type="tel" name="Phone_Number" placeholder="Phone" required="required" data-error="Valid email is required.">
   					<div class="help-block with-errors"></div>
   			</div>
 
@@ -91,7 +91,7 @@
   				<span class="input-group-addon" for="form_email">
     				<span class="glyphicon glyphicon-envelope"></span>
   				</span>
-  					<input id="form_email" class="form-control" type="email" placeholder= "email@example.com">
+  					<input id="form_email" class="form-control" type="email_adress" placeholder= "email@example.com">
   					<div class="help-block with-errors"></div>
 			</div>
 
@@ -123,11 +123,14 @@
 <!--Footer-->
   	<div class="navbar-fixed-bottom">
   	<div class=" row container footer"><p>&copy Hector L. Santana 2017
-  	<a href="https://github.com/sanquinluis" class="fa fa-github"><img class="foto" src="../public/assets/images/github.png"></a>
-  	<a href="https://twitter.com/Lui_SantanaQ" class="fa fa-twitter"><img class="foto" src="../public/assets/images/twitter.png"></a>
-  	<a href="https://www.linkedin.com/in/hector-l-santana-quintana-5693a4a9/" class="fa fa-linkedin"><img class="foto" src="../public/assets/images/linkedin.png"></a></p>
+  	<a href="https://github.com/sanquinluis" class="fa fa-github"><img class="foto" src="../assets/images/github.png"></a>
+  	<a href="https://twitter.com/Lui_SantanaQ" class="fa fa-twitter"><img class="foto" src="../assets/images/twitter.png"></a>
+  	<a href="https://www.linkedin.com/in/hector-l-santana-quintana-5693a4a9/" class="fa fa-linkedin"><img class="foto" src="../assets/images/linkedin.png"></a></p>
   	</div>
   </div><!--/navbar-fixed-bootom main-->
 </body>
+<!--JQuery -->
+  <script src="../javascript/app.js"></script>
+
 
 </html>

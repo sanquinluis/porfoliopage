@@ -10,10 +10,10 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!--circletype-->
-	<!--<script src="circletype.min.js"></script> -->
-	<!--CSS link-->
-	<link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
+	<!--lettering-->
+<!-- 	<script src="../jquery.lettering-0.6.1.min.js"></script> 
+ -->	<!--CSS link-->
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 
 </head>
 <body>
@@ -33,7 +33,7 @@
       <div id="navbar6" class="navbar-collapse collapse liTextCh">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="/">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/aboutme">About</a></li>
           <li><a href="/contact">Contact</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
@@ -56,11 +56,16 @@
     <!--/.container-fluid -->
   	</nav>
 
-  	<div class="container row jumbi">
-  		<div class="container-fluid col-md-8 topic2">
-        <h1>My Porfolio!</h1>
-  			<img src="../public/assets/images/me.jpg">
-
+  	<div class="container row ">
+      <div id="demo" class="collapse">
+        <p class="mess fancy_title">Jr. Web Developer</p>
+        <p class="mess ">I love to play guitar and sing</p>
+        <p class="mess ">Quick learner</p>
+      </div>
+  		<div class="container-fluid topic2 col-sm-12 ">
+        <h1 class="abt">Welcome to my Porfolio!</h1>
+        <a href="#demo" data-toggle="collapse">
+  			<img class="img-circle img-responsive center-block myimg" ></a>
   		</div>
   		
   	</div><!--/conteiner/jumbi -->
@@ -69,9 +74,9 @@
 
   <div class="navbar-fixed-bottom">
   	<div class=" row container footer"><p>&copy Hector L. Santana 2017
-  	<a href="https://github.com/sanquinluis" class="fa fa-github"><img class="foto" src="../public/assets/images/github.png"></a>
-  	<a href="https://twitter.com/Lui_SantanaQ" class="fa fa-twitter"><img class="foto" src="../public/assets/images/twitter.png"></a>
-  	<a href="https://www.linkedin.com/in/hector-l-santana-quintana-5693a4a9/" class="fa fa-linkedin"><img class="foto" src="../public/assets/images/linkedin.png"></a></p>
+  	<a href="https://github.com/sanquinluis" class="fa fa-github"><img class="foto" src="../assets/images/github.png"></a>
+  	<a href="https://twitter.com/Lui_SantanaQ" class="fa fa-twitter"><img class="foto" src="../assets/images/twitter.png"></a>
+  	<a href="https://www.linkedin.com/in/hector-l-santana-quintana-5693a4a9/" class="fa fa-linkedin"><img class="foto" src="../assets/images/linkedin.png"></a></p>
   	</div>
   </div><!--/conteiner -->
 </body>
