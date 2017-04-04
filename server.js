@@ -21,6 +21,6 @@ app.get('/aboutme', function (req,res) {
 });
 
 
-app.listen(3000, function(){
+app.listen( process.env. PORT || 3000, function(){
 	console.log("Express is Listening on Portal 3000");
 })
