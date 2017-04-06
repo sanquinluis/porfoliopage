@@ -11,6 +11,7 @@ body {
     background-size: cover;
     position: absolute;
 
+
 }
 /*header using bootstrap */
 .theBar {
@@ -92,6 +93,13 @@ p div {
 	height: 315px;
 	width: 315px;
 }
+.jumbotron {
+   	vertical-align: middle;
+}
+.thejumb {
+	margin-left: 70px;
+	
+}	
 
 /*contact.htm****************/
 .header {
