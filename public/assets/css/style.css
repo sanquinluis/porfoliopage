@@ -94,12 +94,10 @@ p div {
 	width: 315px;
 }
 .jumbotron {
+	display: block;
    	vertical-align: middle;
 }
-.thejumb {
-	margin-left: 70px;
-	
-}	
+
 
 /*contact.htm****************/
 .header {
