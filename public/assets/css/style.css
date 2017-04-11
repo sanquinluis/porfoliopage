@@ -2,8 +2,8 @@ body {
 	/*Top tranparent gray*/
 	background: 
 	linear-gradient(  
-	 	rgba(27, 27, 27, 0.55), 
-		rgba(27, 27, 27, 0.55)
+	 	rgba(27, 27, 27, 0.85), 
+		rgba(27, 27, 27, 0.85)
 	 ), url('../images/desk.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
