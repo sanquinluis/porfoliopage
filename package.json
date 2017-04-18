@@ -18,6 +18,6 @@
   "homepage": "https://github.com/sanquinluis/porfoliopage#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "nodemailer": "^3.1.5"
+    "nodemailer": "^3.1.8"
   }
 }
