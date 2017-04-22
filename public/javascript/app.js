@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
 	// Contact.html to send email using nodemailer
-	$('#send_email').click(function(){
-		
+	$('#send_email').click(function(event){
+		event.preventDefault();
 		var name = $('#name').val();
 		var lastname = $('#lastname').val();
 		var phone = $('#phone').val();
