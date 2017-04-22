@@ -45,20 +45,16 @@ app.get('/aboutme', function (req,res) {
 //sending mail function
 	// sending mail function
 app.post('/contact', function(req, res){
-if(req.body.email == "" || req.body.subject == "") {
-  res.send("Error: Email & Subject should not blank");
-  return false;
-}
-if (req.body.email) {
-	res.send(req.body.email);
-}
-res.send(req.body);
+	if(req.body.email == "" || req.body.subject == "") {
+	  res.send("Error: Email & Subject should not blank");
+	  return false;
+	}
 
    // Sending Emails with SMTP, Configuring SMTP settings
 
     var smtpTransport = nodemailer.createTransport({
-             host: "smtp.gmail.com", // hostname
-    secureConnection: true, // use SSL
+//              host: "smtp.gmail.com", // hostname
+//     secureConnection: true, // use SSL
     port: 465, // port for secure SMTP
             auth: {
                  user: 'sanquinluis@gmail.com',
@@ -68,9 +64,9 @@ res.send(req.body);
         var mailOptions = {
             from: "Node Emailer ✔ <sanquinluis@gmail.com>", // sender address
             to: req.body.email, // list of receivers
-            subject: req.body.subject+" ✔", // Subject line
-            //text: "Hello world ✔", // plaintext body
-            html: "<b>"+req.body.description+"</b>" // html body
+            subject: "Test Subject ✔", // Subject line
+            text: req.body.message, // plaintext body
+            html: "<b>"+req.body.message+"</b>" // html body
         }
         smtpTransport.sendMail(mailOptions, function(error, response){
         if(error){
